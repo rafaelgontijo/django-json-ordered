@@ -15,7 +15,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Rafael Gontijo',
     author_email='rafaelgontijowinter@gmail.com',
-    url='https://github.com/rafaelgontijo/django_json_ordered',
+    url='https://github.com/rafaelgontijo/django-json-ordered',
     license='MIT',
     packages=find_packages(exclude=['tests*']),
     classifiers=[
