@@ -2,7 +2,7 @@ Django Json Ordered
 ====================
 
 # Install:
-    pip install -e git+https://github.com/rafaelgontijo/django-json-ordered.git@master#egg=django_json_ordered
+    pip install django-json-ordered
 
 # Usage:
 
