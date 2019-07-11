@@ -28,6 +28,7 @@ setup(
     python_requires=">=3.3",
     install_requires=[
         "django >= 1.8.0",
+        "psycopg2 >= 2.7.0"
     ],
     include_package_data=True,
 )

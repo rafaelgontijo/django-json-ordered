@@ -13,3 +13,7 @@ Create your model:
 
     class YourModel(models.Model):
         your_field = JsonOrderedField()
+
+# Compatibility
+
+This module is only compatible with postgresql
