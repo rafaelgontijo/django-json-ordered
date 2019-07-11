@@ -21,8 +21,7 @@ class JsonOrderedField(JSONField):
 
     def parser_json_ordered(self, dictionary):
         dictionary_sorted = sorted(dictionary.items(), key=lambda item: item[1].get('order'))
-        dictionary_sorted = OrderedDict([(key, value.get('value')) for key,value in dictionary_sorted])
-        return dict(dictionary_sorted)
+        return OrderedDict([(key, value.get('value')) for key,value in dictionary_sorted])
 
     def from_db_value(self, value, expression, connection):
         if value is None:
